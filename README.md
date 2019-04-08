@@ -1,5 +1,4 @@
 # Web APIs & Classification
-
 ---
 
 ## Project Challenge Statement
@@ -17,13 +16,11 @@
 3. r/RelationshipAdvice
 
 ---
-
 ### Datasets: 
 1. AskMen vs AskWomen (0, 1)
 2. Relationship Advice vs AskWomen (1, 0)
 
 ---
-
 ## Table of Contents 
 
 This Notebook is broken down into different sections for analysis purpose. The following links are connected to differenct section within the Notebook for simple navigation. 
@@ -93,17 +90,16 @@ test score 0.982
 
 ### AskMen AskWomen Dataset: 
 
-![image result](../images/AskMenWomen_modeleval.png)
+![image result](images/AskMenWomen_modeleval.png)
 
 
 ### AskWomen Relationship Advice Dataset: 
 
-![image result](../images/AskWomenRelationship_modeleval.png)
+![image result](images/AskWomenRelationship_modeleval.png)
 
 ---
 
 ## Key Takeaways
-
 ---
 
 At the end of this project, I focus on understanding the question why with the same model apply to two different datasets, model perform well on one but not on the other. To understand the model, we made a hypothesis regarding the content of the subreddits. if two subreddits have a lot of in common, the model will perform poorly in distingushing one from the other. On the other hand, if two subreddit have different content and keywords, the model is better at picking up the different keywords regrading the different topics, and be better at distingushing the difference. 
